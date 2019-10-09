@@ -55,7 +55,7 @@ body {
 /* выпадающее меню......................................................*/
 .navmenu li{
 	float: inherit;
-	width: 292px;
+	width: 293px;
 	height: 40px;
 	border-left: none;
 	margin-bottom: 10px;	
