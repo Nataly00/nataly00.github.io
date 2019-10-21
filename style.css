@@ -120,7 +120,6 @@ background-color: #2c71b8;
 	clear: both;
 }
 
-
 /* меню поиска.........................................................*/
 .search {
 	position: relative;
@@ -199,113 +198,103 @@ img {
 	height: 400px;
 	border: 1px solid white;
 }
-.colum {
+.col-md-3 {
+	width: 25%;
+}
+.col-md-9 {
+	width: 75%;
+}
+.columleft {
 	width: 269;
 	height:845px;
 	border: 1px solid white;
 }
-/*..........слайдер и колонка........................*/
-.prodackts li{
+/*..............ссылки.............*/
+.bread {
 	float: left;
-	width: 270px;
-	height:654px;
-	border: 1px solid white;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 5px;
 	position: relative;
-	top:130px;
-	left: 20px;
-}
-.img {
-  background-color: rgba(255,255,255,0.75);
-  width: 269px;
-  height:182px;
-  border: 1px solid white;
-  position: relative;
-}
-.komp {
-	position: absolute;
-	top: 35px;
-	right: 85px;
-}
-.pult {
-	position: absolute;
-	top: 36px;
-	left: 80px;
-}
-.ico {
-	position: absolute;
 	top: 30px;
-	left: 100px;
-}
-.nout {
-	position: absolute;
-	top: 50px;
-	left: 80px;
-}
-.p-lt {
-	position: absolute;
-	top: 30px;
-	left: 100px;
-}
-.tel {
-	position: absolute;
-	top: 30px;
-	left: 100px;
-}
-.plan {
-	position: absolute;
-	top: 30px;
-	left: 100px;
-}
-
-
-
-
-/*.............выпад меню..........*/
-.zoom li {
-	width: 30px;
-	height:30px; 
-	position: relative;
-	top:-125px;
-	left: 225px;
-	background-image: url(zoom.png);
-	background-repeat: no-repeat;
-	border: none;
+	left: 7px;
 
 }
-.zoomenu li {
-	width: 270px;
-	height: 40px;
-	position: relative;
-	top: -103px;
-	left: -227px;
-	margin: 0px;
-	background: #2b6fb8;
-	border: 1px solid white;		
-}
-.zoomenu a {
-	color: white;
+.breadlink {
+	color: #9ab4d7;
 	text-decoration: none;
-	display: block;
-	line-height: 45px;
-	padding-left: 20px;
-
 }
-.zoomenu a:hover {
+.nonlink {
+	font-family: "Roboto", sans-serif;
+	color: #9ab4d7;;
+	text-decoration: underline;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+.plus {
+	width: 10px;
+	height: 11px;
+	background-image: url(plus.png);
+	position: absolute;
+	top: 5px;
+	right: -18px;	
+}
+
+.col-md-8 {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	font-size: 34px;
+	position: relative;
+	top:60px;
+	right: -27px;
+	font-weight: 700;
+	
+}
+
+/*.........................меню sort by...............................*/
+.columsort{
+	width: 270px;
+	height: 44px;
+	border: 1px solid white;
+	background: #2b6fb8;
+	position: relative;
+	top: 50px;
+	left: 302px;
+	z-index: 1;
+}
+.sort {
+	border: 1px solid white;
+	width: 270px;
+	height: 44px;
+	position: relative;
+	top: -1px;
+	right: 1px;
+	background: #2b6fb8;
+}
+
+
+.sortby:hover {
 	background: white;
 	color: #2b6fb8;
-}
-/*888888888888888none8888*/
-.zoom ul {
-	display:none;
-	position: absolute;
 
 }
-.zoom li:hover ul{
+.sortby{
+	text-decoration: none;
+	line-height: 44px;
+	padding-left: 20px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
 	display: block;
 }
 
+.columsort ul {
+	display:none;
+	position: absolute;
+}
+.columsort li:hover ul{
+	display: block;
+}
 .z-n {
 	width: 28px;
 	height: 28px;
@@ -313,20 +302,88 @@ img {
 	position: absolute;
 	top:5px;
 	right: 10px;
-}
-.z-n:hover {
-	background-image: url(fon.png);
+	display: block;
 }
 
+.z-n:hover{
+	background-image: url(fon.png);		
+}
 
-ul.zoomenu li:hover .z-n{
+ul.sortmenu:hover .z-n{
+	background-image: url(z-n.png);	
+}
+
+/*,......................Prodacts...........................*/
+/*,......................images...........................*/
+.product-list-item{
+	float: left;
+	width: 270px;
+	height: 650px;
+	border: 1px solid white; 
+	margin-left: 20px;
+	margin-bottom: 20px;
 	position: relative;
-	background-image: url(fon.png);
-	left: 20px;
+	top: 105px;
+	left: 10px;
 }
-
-/*......................hurt................*/
+.product-image-block{
+	background-color: rgba(255,255,255,0.75);
+  	width: 269px;
+  	height:182px;
+  	border: 1px solid white;
+  	position: relative;
+}
+.komp {
+	height: 90px;
+	width: 100px;
+	position: absolute;
+	top: 35px;
+	right: 85px;
+}
+.pult {
+	height: 83px;
+	width: 101px;
+	position: absolute;
+	top: 36px;
+	left: 80px;
+}
+.ico {
+	height: 102px;
+	width: 56px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.nout {
+	height: 59px;
+	width: 103px;
+	position: absolute;
+	top: 50px;
+	left: 80px;
+}
+.p-lt{
+	height: 102px;
+	width: 61px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.tel {
+	height: 103px;
+	width: 51px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.plan {
+	height: 102px;
+	width: 67px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
 .hurt {
+
 	width: 30px;
 	height: 30px;
 	background-image: url(hurt1.png);
@@ -337,89 +394,97 @@ ul.zoomenu li:hover .z-n{
 .hurt:hover{
 	background-image: url(hurt2.png)
 }
-
-/*.............ссылки и надпись вверху блока........*/
-.home li {
-	float: left;
-	margin-left: 20px;
-	margin-right: 5px;
-	position: relative;
-	top: 30px;
-
-}
-.home a{
-	color: #9ab4d7;
-	text-decoration: none;
-}
-.plus {
-	width: 10px;
-	height: 11px;
-	background-image: url(plus.png);
+.zoom  {
+	width: 30px;
+	height:30px; 
+	background-image: url(zoom.png);
 	position: absolute;
-	top: 5px;
-	right: -18px;	
+	top: 10px;
+	right: 12px;
 }
-span {
-	font-family: "Roboto", sans-serif;
-	color: #9ab4d7;;
-	text-decoration: underline;
-	position: relative;
-	top: 30px;
-	left: 25px;
+.zoom:hover{
+	background-image: url(2zoom.png)
 }
-.p {
-	font-family: "Roboto", sans-serif;
-	color: white;
-	font-size: 34px;
-	position: relative;
-	top:75px;
-	right: -20px;
-	font-weight: 700;
-}
-.p1 {
-	font-family: "Roboto", sans-serif;
-	color: white;
-	font-weight: 700;
-	font-size: 24px;
-	font-size: 24px;
-	position: relative;
-	top: 190px;
-	left: 10px;
-}
-.p2 {
-	font-family: "Roboto", sans-serif;
-	color: white;
-	font-size: 16px;
-	position: relative;
-	top: 200px;
-	left: 10px;
-}
-.p3 {
-	font-family: "Roboto", sans-serif;
-	color: white;
-	position: relative;
-	top: 210px;
-	left: 10px;
-	padding-bottom: 7px;
-	
-}
-/*.....................Add and MORE.....................*/
-.add {
+/*,......................endimages...........................*/
+/*,......................floor...........................*/
+.add-to-cart{
 	width: 210px;
 	height: 52px;
 	background: #568dc6;
-	position: absolute;
-	left: 25px;
-	bottom: -440px;
 	border: 1px solid white;
+	position: relative;
+	top: 248px;
+	left: 30px;
+	padding: 18px 50px;
 	font-weight: 700;
 }
-.add a{
+.more-detailes{
+	width: 210px;
+	height: 52px;
+	background: #2b6fb8;
+	border: 1px solid white;
+	position: relative;
+	top: 230px;
+	left: 30px;
+	padding: 18px 45px;
+	font-weight: 700;
+}
+
+.price {
+	width: 210px;
+	height: 70px;
+	font-family: "Roboto", sans-serif;
 	color: white;
-	text-decoration: none;
+	font-size: 35px;
+	font-weight: 700;
 	position: absolute;
-	top:20px;
-	left: 50px;
+	text-align: center;
+	position: absolute;
+	top: 420px;
+	left: 25px;
+}
+.sup {
+	font-size: 20px;
+	position: relative;
+	top: -15px;
+	left: 5px;
+}
+.product-body{
+	color: white;
+	font-family: font-family: "Roboto", sans-serif;
+	margin-top: 20px;
+	margin-left: 15px;
+
+}
+
+
+.namedevice{
+	font-weight: 700;
+	font-size: 25px;
+	position: absolute;
+	top: 195px;
+}
+
+.text {
+	font-weight: 300;
+	position: absolute;
+	top: 230px;
+}
+.type {
+	position: absolute;
+	top: 290px;
+}
+.screensize {
+	position: absolute;
+	top: 315px;
+}
+.ram {
+	position: absolute;
+	top: 340px;
+}
+.add-more{
+	text-decoration: none;
+	color: white;
 
 }
 .count {
@@ -429,70 +494,11 @@ span {
 	background-repeat: no-repeat;
 	position: absolute;
 	left: 170px;
-	top: 18px;
+	top: 16px;
 }
-.more {
-	width: 210px;
-	height: 52px;
-	background: #2d71b8;
-	border: 1px solid white;
-	position: absolute;
-	top: 500px;
-	left: 25px;
+strong {
 	font-weight: 700;
 }
-.more a{
-	color: white;
-	text-decoration: none;
-	position: absolute;
-	top: 20px;
-	left: 50px;
-}
-.numbr {
-	width: 210px;
-	height: 70px;
-	
-	position: absolute;
-	top: 415px;
-	left: 25px;
-	font-family: "Roboto", sans-serif;
-	color: white;
-	font-size: 30px;
-	font-weight: 700;
-	position: absolute;
-	text-align: center;
-	padding: 20px;
-	padding-left: 10px;
-}
-sup {
-	font-size: 16px;
-	position: absolute;
-	top: 20px;
-	right:52px;
-	margin: 0px;
-}
-.sup1 {
-	position: flex;
-	left: 146px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
