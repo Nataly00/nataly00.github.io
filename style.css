@@ -315,6 +315,9 @@ input[type=checkbox]:checked + label:before {
 	text-transform: uppercase;
 	margin-left: 40px;
 }
+.colum-left-submit:hover{
+	background: #568dc6;
+}
 /*..............ссылки...............................................*/
 .breadcrumbs {
 	margin-top: 28px;
@@ -522,13 +525,16 @@ input[type=checkbox]:checked + label:before {
 .add-to-cart{
 	width: 210px;
 	height: 52px;
-	background: #568dc6;
+	background: #2b6fb8;
 	border: 1px solid white;
 	position: relative;
 	top: 110px;
 	left: 30px;
 	padding: 18px 50px;
 	font-weight: 700;
+}
+.add-to-cart:hover{
+	background: #568dc6;
 }
 .more-detailes{
 	width: 210px;
@@ -541,6 +547,9 @@ input[type=checkbox]:checked + label:before {
 	padding: 18px 45px;
 	font-weight: 700;
 }
+.more-detailes:hover{
+	background: #568dc6;
+}
 .add-more {
 	background: no-repeat;
 	border: none;
@@ -550,10 +559,19 @@ input[type=checkbox]:checked + label:before {
 	line-height: 40px;
 	font-weight: bold;
 	position: absolute;
-	top: 0px;
+	top: 2px;
 	left: 0px;
+	color: white;
+}
 
-
+.count {
+	width: 20px;
+	height: 20px;
+	background-image: url(count.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 175px;
+	top: 16px;
 }
 
 /*.....................end add-to-cart & more-detailes..........*/
@@ -604,20 +622,6 @@ input[type=checkbox]:checked + label:before {
 }
 .ram {
 	
-}
-.add-more{
-	text-decoration: none;
-	color: white;
-
-}
-.count {
-	width: 20px;
-	height: 20px;
-	background-image: url(count.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	left: 175px;
-	top: 13px;
 }
 
 .decor {

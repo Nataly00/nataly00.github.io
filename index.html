@@ -47,7 +47,7 @@
 						</div>
 						<div class="col-md-3">
 							<div class="cart">
-								<div class="products-count">4</div>	
+								<div class="products-count" id="product-count">0</div>	
 							</div>				
 						</div>
 					</div>
@@ -67,10 +67,9 @@
 					<div class="divece-type">Divece type
 						<div class="row">
 							<input type="checkbox" id="Laptop">
-							<label for="Laptop"><span class="filtr-laptop">Laptop</span></label>
-
+								<label for="Laptop"><span class="filtr-laptop">Laptop</span></label>
 							<input type="checkbox" id="Tablet">
-							<label for="Tablet"><span class="filtr-tablet">Tablet</span></label>
+								<label for="Tablet"><span class="filtr-tablet">Tablet</span></label>
 						</div>
 					</div>
 					
@@ -78,37 +77,37 @@
 					<div class="color">Color
 						<div class="row">
 							<input type="checkbox" id="Black">
-							<label for="Black"><span class="filtr-black">Black</span></label>
+								<label for="Black"><span class="filtr-black">Black</span></label>
 
 							<input type="checkbox" id="Red">
-							<label for="Red"><span class="filtr-red">Red</span></label>
+								<label for="Red"><span class="filtr-red">Red</span></label>
 
 							<input type="checkbox" id="Green">
-							<label for="Green"><span class="filtr-green">Green</span></label>
+								<label for="Green"><span class="filtr-green">Green</span></label>
 
 							<input type="checkbox" id="Blue">
-							<label for="Blue"><span class="filtr-blue">Blue</span></label>
+								<label for="Blue"><span class="filtr-blue">Blue</span></label>
 
 							<input type="checkbox" id="Orange">
-							<label class="orange" for="Orange"><span class="filtr-orange">Orange</span></label>
+								<label class="orange" for="Orange"><span class="filtr-orange">Orange</span></label>
 					</div>
 					</div>
 					<div class="ram-filtr">Ram
 						<div class="row">
-						<input type="checkbox" id="1GB">
-						<label for="1GB"><span class="filtr-black">1GB</span></label>
+							<input type="checkbox" id="1GB">
+								<label for="1GB"><span class="filtr-black">1GB</span></label>
 
-						<input type="checkbox" id="2GB">
-						<label for="2GB"><span class="filtr-red">2GB</span></label>
+							<input type="checkbox" id="2GB">
+								<label for="2GB"><span class="filtr-red">2GB</span></label>
 
-						<input type="checkbox" id="4GB">
-						<label for="4GB"><span class="filtr-green">4GB</span></label>
+							<input type="checkbox" id="4GB">
+								<label for="4GB"><span class="filtr-green">4GB</span></label>
 
-						<input type="checkbox" id="6GB">
-						<label for="6GB"><span class="filtr-blue">6GB</span></label>
+							<input type="checkbox" id="6GB">
+								<label for="6GB"><span class="filtr-blue">6GB</span></label>
 
-						<input type="checkbox" id="8GB">
-						<label for="8GB"><span class="filtr-orange">8GB</span></label>
+							<input type="checkbox" id="8GB">
+								<label for="8GB"><span class="filtr-orange">8GB</span></label>
 						</div>
 					</div>
 					<div class="row">
@@ -116,7 +115,7 @@
 					</div>
 					<div class="row">
 						<form>
-						<input  class="colum-left-submit" type="submit" value="Submit">
+							<input  class="colum-left-submit" type="submit" value="Submit">
 						</form>
 					</div>
 				
@@ -126,16 +125,13 @@
 			<!--.................колонка товары.......................-->
 			<div class="col-md-9">
 				<div class="row">
-				<div class="breadcrumbs">
-					<div class="bread"><a class="breadlink" href="">Home page</a><div class="plus"></div></div>
-					<div class="bread"><a class="breadlink" href="">Products</a><div class="plus"></div></div>
-					<div class="nonlink"><span class="toplink">Laptops and Tablets</span></div>
-				</div>
-				</div>
-			
-				
-
-               <!--................сортировка и заглавие................-->
+					<div class="breadcrumbs">
+						<div class="bread"><a class="breadlink" href="">Home page</a><div class="plus"></div></div>
+						<div class="bread"><a class="breadlink" href="">Products</a><div class="plus"></div></div>
+						<div class="nonlink"><span class="toplink">Laptops and Tablets</span></div>
+					</div>
+				</div>						
+              <!--................сортировка и заглавие................-->
 				<div class="row">
 					<div class="col-md-8">
 						<div class="laptops">Laptops and Tablets</div>
@@ -177,7 +173,7 @@
 
 									<div class="more-detailes"><button class="add-more">MORE DETAILS</button></div>
 
-									<div class="add-to-cart"><button class="add-more">ADD TO CART</button>
+									<div class="add-to-cart"><button class="add-more add-count">ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -208,7 +204,7 @@
 
 									<div class="more-detailes"><button class="add-more" >MORE DETAILS</button></div>
 
-									<div class="add-to-cart"><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart"><button class="add-more add-count" >ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -239,7 +235,7 @@
 
 									<div class="more-detailes"><button class="add-more" >MORE DETAILS</button></div>
 
-									<div class="add-to-cart"><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart"><button class="add-more add-count" >ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -269,7 +265,7 @@
 									<div class="price">$599<sup class="sup">25</sup></div>
 
 									<div class="more-detailes"><button class="add-more" >MORE DETAILS</button></div>
-									<div class="add-to-cart" ><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart" ><button class="add-more add-count" >ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -299,7 +295,7 @@
 									<div class="price">$1250<sup class="sup">99</sup></div>
 
 									<div class="more-detailes" ><button class="add-more">MORE DETAILS</button></div>
-									<div class="add-to-cart" ><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart" ><button class="add-more add-count" >ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -329,7 +325,7 @@
 									<div class="price">$399<sup class="sup">50</sup></div>
 
 									<div class="more-detailes" ><button class="add-more" >MORE DETAILS</button></div>
-									<div class="add-to-cart" ><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart" ><button class="add-more add-count">ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -359,7 +355,7 @@
 									<div class="price">$599<sup class="sup">25</sup></div>
 
 									<div class="more-detailes" ><button class="add-more" >MORE DETAILS</button></div>
-									<div class="add-to-cart" ><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart" ><button class="add-more add-count">ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -389,7 +385,7 @@
 									<div class="price">$1250<sup class="sup">99</sup></div>
 
 									<div class="more-detailes" ><button class="add-more" >MORE DETAILS</button></div>
-									<div class="add-to-cart" ><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart" ><button class="add-more add-count">ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -419,7 +415,7 @@
 									<div class="price">$399<sup class="sup">50</sup></div>
 
 									<div class="more-detailes" ><button class="add-more" >MORE DETAILS</button></div>
-									<div class="add-to-cart" ><button class="add-more" >ADD TO CART</button>
+									<div class="add-to-cart" ><button class="add-more">ADD TO CART</button>
 									<div class="count"></div></div>
 								</div>
 							</div>
@@ -431,16 +427,15 @@
 				</div>
 			</div>
 			<div class="row">
-			<div class="load-more"> Load more...</div>
+				<div class="load-more"> Load more...</div>
 			</div>
 		</div>
 	</main>
 	<footer class="footer">
 		<div class="row">
-			<div class="foot">@ Copyright 2019</div>
-			
+			<div class="foot">@ Copyright 2019</div>		
 		</div>
 	</footer>
-	
+	<script src="app.js"></script>
 </body>
 </html>
